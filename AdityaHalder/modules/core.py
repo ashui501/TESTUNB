@@ -91,9 +91,9 @@ class Aditya(Client, PyTgCalls):
             self.ass.mention = self.ass.me.mention
             self.ass.id = self.ass.me.id
             try:
-                await self.ass.join_chat("THE_VIP_BOY")
-                await self.ass.join_chat("VIP_CREATORS")
-                await self.ass.join_chat("TG_FRIENDSS")
+                await self.ass.join_chat("NAMIKAZECPAN")
+                await self.ass.join_chat("TOKYOMANJIGANGNETWORK")
+                await self.ass.join_chat("LOVELYXASOSCIATION")
             except:
                 pass
             try:
@@ -120,7 +120,7 @@ class Aditya(Client, PyTgCalls):
             await asyncio.sleep(1)
             await self.app.send_message(f"@botfather", f"@{self.bot.username}")
             await asyncio.sleep(1)
-            await self.app.send_message(f"@botfather", "🥀 VIP USERBOT ✨")
+            await self.app.send_message(f"@botfather", "🥀 LOVELY USERBOT ✨")
         except:
             pass
         try:
