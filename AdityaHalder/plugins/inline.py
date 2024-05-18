@@ -11,22 +11,22 @@ async def help_menu_logo(answer):
     if var.USERBOT_PICTURE:
         thumb_image = var.USERBOT_PICTURE
     else:
-        thumb_image = "https://telegra.ph/file/027283ee9defebc3298b8.png"
+        thumb_image = "https://te.legra.ph/file/e95048a6813968128e6a4.jpg"
     button = paginate_plugins(0, PLUGINS, "help")
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
             title="🥀 Help Menu ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of Genius-Userbot ✨...",
+            description=f"🥀 Open Help Menu Of Lovely-Userbot ✨...",
             caption=f"""
 **🥀 Welcome To Help Menu Of
-Genius Userbot » {__version__} ✨...
+Lovely Userbot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [Aditya Server](https://t.me/AdityaServer).**
+🌷Powered By : [LOVELY Server](https://t.me/NAMIKAZECPAN).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -41,12 +41,12 @@ async def help_menu_text(answer):
             title="🥀 Help Menu ✨",
             input_message_content=InputTextMessageContent(f"""
 **🥀 Welcome To Help Menu Of
-Genius Userbot » {__version__} ✨...
+LOVELY Userbot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [Aditya Server](https://t.me/AdityaServer).**""",
+🌷Powered By : [LOVELY Server](https://t.me/NAMIKAZECPAN).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
