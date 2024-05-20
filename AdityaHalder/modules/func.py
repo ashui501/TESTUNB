@@ -42,6 +42,7 @@ async def kicked_handler(_, chat_id: int):
         return
     except:
         pass
+        
 
 
 @call.on_closed_voice_chat()
