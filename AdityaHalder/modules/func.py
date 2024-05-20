@@ -32,19 +32,6 @@ async def put_que(chat_id, file, type):
         que.append(put)
         return int(len(que)-1)
 
-
-@call.on_kicked()
-async def kicked_handler(_, chat_id: int):
-    try:
-        check = db.get(chat_id)
-        if check:
-            return check.pop(0)
-        return
-    except:
-        pass
-        
-
-
 @call.on_closed_voice_chat()
 async def closed_voice_chat_handler(_, chat_id: int):
     try:
